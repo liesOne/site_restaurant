@@ -21,12 +21,20 @@
     <form action="#" method="post">
         <div>
             <label for="prenom_client">Votre prénom</label>
-            <input type="text" name="prenom_client" id="prenom_client" value="votre prénom">    
+            <input type="text" name="prenom_client" id="prenom_client" placeholder="votre prénom">    
         </div>
         
         <div>
             <label for="email_client">Votre email</label>
-            <input type="email" name="email_client" id="email_client" value="john.doe@anywhere.com">    
+            <input type="email" name="email_client" id="email_client" placeholder="john.doe@anywhere.com">    
+        </div>
+        <div>
+            <label for="theme_client">theme</label>
+            <select name="theme_client" id="theme_client">
+                <option value="repas_affaire">Repas d'affaire</option>
+                <option value="repas_anniversaire">Repas anniversaire</option>
+                <option value="repas_pantagruelique">Repas Pantagruelique</option>
+            </select>
         </div>
         
         <div>
