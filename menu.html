@@ -16,24 +16,53 @@
         
     </header>
     <h1>Le menu</h1>
-    <h2>Les entrées</h2>
-    <ul>
-        <li> <a href="entree/entree.html">Entrée 1</a> </li>
-        <li>Entrée 2</li>
-        <li>Entrée 3</li>
-    </ul>
-    <h2>Les plats</h2>
-    <ul>
-        <li>Plat 1</li>
-        <li>Plat 2</li>
-        <li>Plat 3</li>
-    </ul>
-    <h2>Les desserts</h2>
-    <ul>
-        <li>Dessert 1</li>
-        <li>Dessert 2</li>
-        <li>Dessert 3</li>
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <td>
+                </td>
+                <th>
+                    Libellé du plat
+                </th>
+                <th>
+                    Prix TTC
+                </th>
+            </tr>
+        </thead>
+        <tr>
+            <th rowspan=3>Les entrées</th><td>Entrée 1</td><td>12,00 €</td>
+        </tr>
+        <tr>
+            <td>Entrée 2</td><td>8,00 €</td>
+        </tr>
+        <tr>
+            <td>Entrée 3</td><td>15,00 €</td>
+        </tr>
+        <tr>
+            <th rowspan=3>Les plats chauds</th><td>Plat chaud 1</td><td>20,00 €</td>
+        </tr>
+        <tr>
+            <td>Plat chaud 2</td><td>22,00 €</td>
+        </tr>
+        <tr>
+            <td>Plat chaud 3</td><td>18,00 €</td>
+        </tr>
+        <tr>
+            <th rowspan=3>Les desserts</th><td>Dessert 1</td><td>8,00 €</td>
+        </tr>
+        <tr>
+            <td>Dessert 2</td><td>5,00 €</td>
+        </tr>
+        <tr>
+            <td>Dessert 3</td><td>10,00 €</td>
+        </tr>
+        <tfoot>
+            <th colspan=3>
+                La TVA appliquée est de 5,5%
+            </th>
+        </tfoot>
+    </table>
+    
 
     <footer>
         <address>Rue de Vanves, 92170 Vanves </address>
