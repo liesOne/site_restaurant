@@ -1,0 +1,21 @@
+body {
+    margin:0;
+    background: #ffb7b7;
+}
+
+header {
+    background: #888888;
+    padding: 10px;
+    margin:0;
+}
+
+img {
+    width:100%;
+    height: auto;
+}
+
+footer {
+    background: #856767;
+    padding: 10px;
+    margin:0;
+}
